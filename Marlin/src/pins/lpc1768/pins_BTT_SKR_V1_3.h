@@ -78,7 +78,7 @@
 // Servos
 //
 #ifndef SERVO0_PIN
-  #define SERVO0_PIN                       P2_00
+  //#define SERVO0_PIN                       P2_00
 #endif
 
 //
@@ -92,7 +92,7 @@
 // Filament Runout Sensor
 //
 #ifndef FIL_RUNOUT_PIN
-  #define FIL_RUNOUT_PIN                   P1_28
+//  #define FIL_RUNOUT_PIN                   P1_28
 #endif
 
 //
