@@ -88,7 +88,6 @@
 #ifndef HEATER_1_PIN
   #define HEATER_1_PIN                     P1_19
 #endif
-#endif
 #ifndef HEATER_BED_PIN
   #define HEATER_BED_PIN                   P1_20
 #endif
