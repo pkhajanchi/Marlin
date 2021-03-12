@@ -83,23 +83,27 @@
 // Heaters / Fans
 //
 #ifndef HEATER_0_PIN
-  #define HEATER_0_PIN                     P2_07
+  #define HEATER_0_PIN                     P1_18
 #endif
-#if HOTENDS == 1
-  #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_04
-  #endif
-#else
-  #ifndef HEATER_1_PIN
-    #define HEATER_1_PIN                   P2_04
-  #endif
+#ifndef HEATER_1_PIN
+  #define HEATER_1_PIN                     P1_19
 #endif
-#ifndef FAN_PIN
-  #define FAN_PIN                          P2_03
 #endif
 #ifndef HEATER_BED_PIN
-  #define HEATER_BED_PIN                   P2_05
+  #define HEATER_BED_PIN                   P1_20
 #endif
+
+//
+// PNP / Fans
+//
+#define FAN_PIN                          P2_03
+#define FAN1_PIN                         P2_04
+#define FAN2_PIN                         P2_07
+#define FAN3_PIN                         P2_05
+
+
+
+
 
 //
 // LCD / Controller
